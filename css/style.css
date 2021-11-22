@@ -1,0 +1,858 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e1e0dc;
+}
+
+img {
+    vertical-align: top;
+}
+
+header .wrap {
+    display: flex;
+    padding: 38px 60px 0;
+    justify-content: space-between;
+}
+
+header .wrap .orange {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #e36200;
+}
+
+header .wrap .logo {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'ChosunSm';
+}
+
+header .wrap .menu a{
+    font-family: 'nanumsquare';
+    display: flex;
+
+}
+
+header .three {
+    padding-top: 3px;
+    padding-right: 5px;
+
+}
+
+header .three span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #000;
+    margin: 0 3px 4px;
+}
+
+header .three:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #000;
+    margin-left: 9px;
+}
+
+
+.banner {
+    padding-top: 220px;
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 400px;
+}
+
+
+.banner .copyright {
+    font-size: 80px;
+    font-family: 'ChosunKm'
+}
+
+.banner .copyright .kor {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: 'nanumsquare';
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+.banner .copyright .kor a {
+    display: inline-block;
+    padding-top: 15px;
+    border-top: 2px solid #000;
+}
+
+.banner .reserved {
+    position: fixed;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    font-size: 12px;
+    left: -180px;
+    bottom: 200px;
+}
+
+.con .wrap {
+    padding-bottom: 270px;
+    margin: 165px auto 0;
+    padding-bottom: 70vh;
+}
+
+.con .wrap .apiacereimg .img-container {
+    background-image: url(../images/heifetz.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 613px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.con .wrap .apiacerecopy {
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+    margin-left: calc((100% - 1400px) / 2);
+}
+
+.con .wrap .apiacerecopy .title {
+    font-size: 80px;
+    font-family: 'ChosunKm';
+}
+
+.con .wrap .apiacerecopy {
+    font-size: 20px;
+}
+
+.con .wrap .apiacerecopy p:nth-child(2) {
+    padding-left: 320px;
+    font-family: 'chosunilbo';
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.con .wrap .apiacerecopy p:last-child {
+    padding-top: 80px;
+    font-family: 'chosunsg';
+    line-height: 1.5;
+}
+
+.intro {
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.intro p {
+    line-height: 22px;
+    font-family: 'nanumsquare';
+    font-weight: 300;
+
+}
+
+.intro p:first-child {
+    font-family: 'ChosunKm';
+}
+
+.intro .me {
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 4%;
+    letter-spacing: 6px;
+    font-size: 14px;
+}
+
+.intro p:nth-child(1) {
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.intro p:nth-child(2) {
+    padding-left: 5px;
+}
+
+.intro p:last-child {
+    padding-right: 10px;
+}
+
+.intro p:nth-child(1) a {
+    border-right: 1px solid #000;
+    padding-right: 3px;
+}
+
+.intro p:nth-child(2) a {
+    border-right: 1px solid #000;
+    padding-right: 3px;
+}
+
+.intro p:last-child a {
+    border-right: 1px solid #000;
+    padding-right: 3px;
+}
+
+.intro .wrap {
+    display: flex;
+    width: 1366px;
+    margin: 0 auto;
+    padding-bottom: 190px;
+}
+
+.intro .wrap .univ {
+    display: flex;
+    padding-top: 600px;
+    margin-right: 120px;
+    padding-left: 80px;
+}
+
+.intro .univrow {
+    margin-right: 120px;
+}
+
+.intro .univrow .ability .title {
+    font-family: 'ChosunSm';
+    font-size: 22px;
+}
+
+.intro .webrow .ability .title {
+    font-family: 'ChosunSm';
+    font-size: 22px;
+}
+
+.intro .lice .title {
+    font-family: 'ChosunSm';
+    font-size: 22px;
+}
+
+
+.intro .univrow .ability .explain {
+    font-size: 14px;
+}
+
+.intro .webrow .ability .explain {
+    font-size: 14px;
+}
+
+.intro p {
+    font-size: 14px;
+}
+
+.intro .wrap2 {
+    padding-top: 70px;
+}
+
+.intro .wrap2 .web {
+    display: flex;
+}
+
+.intro .wrap2 .webrow {
+    margin-right: 120px;
+}
+
+.intro .wrap2 .webrow:last-child {
+    margin-right: 0;
+}
+
+
+.intro .ability {
+    width: 200px;
+    margin-bottom: 122px;
+}
+
+.intro .lice {
+    width: 200px;
+    margin-top: -260px
+}
+
+.intro .lice:before {
+    content: '';
+    display: block;
+    width: 0;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+    margin-left: -105px;
+    transition: width 1s;
+    transition-delay: 0.6s;
+}
+
+.intro.active .lice:before {
+    width: 240px
+}
+
+.intro .univ p {
+    text-align: right;
+}
+
+.intro .title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.intro .wrap .univrow:nth-child(1) {
+    padding-top: 130px;
+}
+
+.intro .wrap .univrow:nth-child(2) {
+    position: relative;
+}
+
+.intro .wrap2 .webrow:nth-child(2) {
+    padding-top: 160px;
+}
+
+.intro .wrap .univrow:nth-child(2):after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 0;
+    border-right: 1px solid #000;
+    margin-bottom: 50px;
+    position: absolute;
+    top: -200px;
+    right: -135px;
+    transition: height 1s;
+}
+
+.intro.active .wrap .univrow:nth-child(2):after {
+    height: 550px;
+}
+
+.portfolio {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.portfolio .myself {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-bottom: 295px;
+}
+
+.portfolio .myself .title {
+    font-size: 80px;
+    font-family: 'ChosunKm';
+}
+
+.portfolio .myself .title:after {
+    content: '';
+    display: block;
+    width: 150px;
+    border-bottom: 3px solid #000;
+    margin-left: auto;
+    margin-top: 10px;
+
+}
+
+.portfolio .myself .title span {
+    font-family: 'nanumsquare';
+    font-weight: 900;
+}
+
+.portfolio .myself .sub {
+    writing-mode: vertical-lr;
+    right: -25px;
+    margin-top:-234px;
+    font-size: 20px;
+    font-family: 'nanumsquare';
+    font-weight: 300;
+}
+
+.portfolio .wrap1 {
+    position: relative;
+    height: 1020px;
+    font-family: 'ChosunSm';
+    border-bottom: 1px solid #d3d2ce;
+}
+
+.portfolio .wrap1 .main {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.portfolio .wrap1 .main .copy {
+    font-size: 50px;
+    margin-right: 100px;
+    border-right: 1px solid #d3d2ce;
+    padding-right: 100px;
+    font-family: 'chosunkm';
+}
+
+.portfolio .wrap1 .main .copy p:first-child:after {
+    content: '';
+    display: block;
+    width: 60px;
+    border-bottom: 2.5px solid #000;
+    margin: 10px 0 0;
+
+}
+
+.portfolio .wrap1 .main .copy p:last-child {
+    font-size: 14px;
+    margin-top: 35px;
+    width: 165px;
+    line-height: 1.5;
+    font-family: 'chosunsm';
+}
+
+
+.portfolio .port {
+    display: flex;
+    width: 600px;
+    position: relative;
+}
+
+.portfolio .logo{
+    position:absolute;
+    top:40px;
+    right:-100px;   
+    transform: rotate(90deg);
+}
+
+.portfolio .wrap1 .logo img{
+    width:270px;
+    height: auto;
+}
+
+.portfolio .port .portimg p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Chosunilbo';
+}
+
+.portfolio .port .portimg p span {
+    font-family: 'ChosunKm';
+}
+
+.portfolio .port .ex {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'chosunilbo';
+}
+
+.portfolio .port .ex:last-child {
+    font-size: 13px;
+    bottom: 5%;
+    position: absolute;
+    line-height: 1.4;
+    font-family: 'ChosunSm';
+}
+
+.pho .view {
+    font-family: 'chosunilbo';
+}
+
+.pho .view a {
+    font-size: 24px;
+}
+
+.parallax .view img{
+    padding-top:20px;
+}
+
+
+.pho .view a::before {
+    content: '';
+    position: absolute;
+    bottom: 41%;
+    left: 0px;
+    width: 140px;
+    height: 1px;
+    background: #000;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.pho .view a:hover::before {
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
+}
+
+
+
+.view i {
+    padding-left: 12px;
+}
+
+
+.portinst1 .pho > div p {
+    font-family: 'chosunilbo';
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+
+.portinst1 .pho>div p a::before {
+    content: '';
+    position: absolute;
+    bottom: 9%;
+    left: 0px;
+    width: 140px;
+    height: 1px;
+    background: #000;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.portinst1 .pho>div p a:hover::before {
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
+}
+
+.portinst1 .pho>div p i {
+    padding-left: 12px;
+}
+
+.port .portimg {
+    margin-right: 37px;
+}
+
+.port .portimg img {
+    width: 332px;
+    height: auto;
+    ;
+}
+
+.portfolio .wrap1 .pho {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-bottom: 347px;
+}
+
+.portfolio .wrap1 .pho>div:first-child img {
+    padding-top: 112px;
+    width: 428px;
+    height: auto;
+    margin-right: 70px;
+}
+
+.portfolio .wrap1 .pho>div:nth-child(2) img {
+    padding-top: 46px;
+    width: 282px;
+    height: auto;
+}
+
+
+.portfolio .wrap1 .view {
+    font-size: 30px;
+    right: 0;
+    position: absolute;
+}
+
+.colored{
+    display: flex;
+}
+.colored > div:first-child{
+    margin-right: 10px;;
+}
+.ball{
+    width: 12px;
+    height: 12px;
+    background-color: #7f0019;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.portinst1 .colored{
+    justify-content: end;
+}
+
+.portinst1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 1427px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.portinst1 .pho {
+    display: flex;
+    margin-right: -100px;
+}
+
+.portinst1 .pho p {
+    font-size: 30px;
+    font-family: 'chosunsm';
+    padding-top: 100px;
+}
+
+.portinst1 .pho>div:first-child img {
+    width: 333px;
+    height: auto;
+    margin-right: 20px;
+    padding-top: 320px;
+}
+
+.portinst1 .pho>div:nth-child(2) img {
+    width: 280px;
+    height: auto;
+    padding-top: 480px;
+}
+
+.portinst1 .wrap {
+    display: flex;
+    width: 780px;
+}
+
+.portinst1 .wrap .portex {
+    margin-right: 40px;
+    text-align: right;
+}
+
+.portinst1 .logo{
+    position:absolute;
+    top:60px;
+    left:8%;
+    width:200px;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+}
+.portinst1 .logo img{
+    width:130px;
+    height: auto;
+}
+
+
+
+
+
+
+.portinst1 .wrap .portex .long {
+    margin-top: 200px;
+    text-align: left;
+    font-family: 'ChosunSm';
+    line-height: 1.4;
+    font-size: 13px
+}
+
+.portinst1 .wrap .ex {
+    font-size: 14px;
+    font-family: 'chosunilbo';
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.portinst1 .portimg img {
+    width: 516px;
+    height: auto;
+}
+
+.portinst1 .portimg p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Chosunilbo';
+}
+
+.portinst1 .portimg p span {
+    font-family: 'ChosunKm';
+}
+
+.abil .wrap {
+    width: 1400px;
+    margin: 250px auto;
+}
+
+.abil .wrap .first {
+    margin-bottom: 100px;
+    font-family: 'chosunkm';
+    font-size: 30px;
+}
+
+.abil .wrap .title:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.abil .wrap .explain {
+    font-size: 14px;
+    width: 200px;
+    padding-top: 20px;
+    line-height: 1.3;
+    font-family: 'chosunsm';
+}
+
+.abil .abilimg {
+    display: flex;
+    /* overflow: hidden; */
+
+
+}
+
+.abil .abilimg>div {
+    position: relative;
+    width: max-content;
+}
+
+.abil .abilimg>div:hover .box {
+    opacity: 1;
+}
+
+.abil .abilimg .box {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.abil .abilimg .box .copy {
+    text-align: center;
+    color: #f3f3f3;
+    font-family: 'chosunkm';
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-top: 140px;
+}
+
+.abil .abilimg .box p:last-child {
+    font-size: 14px;
+    color: #f3f3f3;
+    padding: 0 40px 0 40px;
+    margin-top: 20px;
+    font-family: 'chosunilbo';
+    line-height: 1.5;
+
+}
+
+.abil .abilimg>div {
+    margin-right: 50px;
+}
+
+.abil .abilimg img {
+    width: auto;
+    height: 350px;
+
+}
+
+.last .face img {
+    width: 643px;
+    height: auto;
+    padding-left: 20px;
+    ;
+}
+
+.last .wrap {
+    display: flex;
+    position: relative;
+    width: 1560px;
+    margin: 350px auto 0;
+    padding-bottom: 100px;
+}
+
+.last .face {
+    margin-right: 36px;
+}
+
+.last .me {
+    writing-mode: vertical-rl;
+}
+
+.last .me p {
+    letter-spacing: 8px;
+    font-size: 14px;
+}
+
+.last p:nth-child(1) a {
+    border-right: 1px solid #000;
+}
+
+.last p:nth-child(2) a {
+    border-right: 1px solid #000;
+}
+
+.last p:last-child a {
+    border-right: 1px solid #000;
+}
+
+.last p {
+    line-height: 22px;
+    font-family: 'nanumsquare';
+    font-weight: 300;
+
+}
+
+.last .me p:first-child {
+    font-family: 'ChosunKm';
+    letter-spacing: 14px;
+    font-size: 16px;
+}
+
+.last .me p:nth-child(1) {
+    padding-left: 5px;
+}
+
+.last p:nth-child(2) {
+    padding-left: 5px;
+}
+
+.last p:last-child {
+    padding-right: 10px;
+}
+
+.last .me p:nth-child(1) a {
+    border-right: 1px solid #000;
+    padding-right: 5px;
+}
+
+.last p:nth-child(2) a {
+    border-right: 1px solid #000;
+    padding-right: 3px;
+}
+
+.last p:last-child a {
+    border-right: 1px solid #000;
+    padding-right: 3px;
+}
+
+.last .gak {
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    padding-left: 200px;
+    color: #6e6e6e;
+}
