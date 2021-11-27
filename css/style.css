@@ -6,9 +6,8 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
-body {
-    background-color: #e1e0dc;
+body{
+    background-color: #f3efef;
 }
 
 img {
@@ -581,15 +580,36 @@ header .three:after {
 .colored > div:first-child{
     margin-right: 10px;;
 }
-.ball{
+.ball1{
     width: 12px;
     height: 12px;
-    background-color: #7f0019;
+    background-color: #00b5e2;
     border-radius: 50%;
     display: inline-block;
     margin-left:5px;
     margin-right: 5px;
 }
+
+.ball2{
+    width: 12px;
+    height: 12px;
+    background-color: #00a9e0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.ball3{
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
 
 .portinst1 .colored{
     justify-content: end;
@@ -601,6 +621,8 @@ header .three:after {
     width: 1427px;
     margin-top: 200px;
     position: relative;
+    padding-bottom: 200px;;
+    border-bottom: 1px solid #d3d2ce;
 }
 
 .portinst1 .pho {
@@ -650,11 +672,6 @@ header .three:after {
     height: auto;
 }
 
-
-
-
-
-
 .portinst1 .wrap .portex .long {
     margin-top: 200px;
     text-align: left;
@@ -675,6 +692,16 @@ header .three:after {
     height: auto;
 }
 
+.portinst1 .wrap .ex .ball1{
+    background-color: #7f0019;
+    margin-top:3px;
+}
+
+.portinst1 .wrap .ex .ball2{
+    background-color: #444;
+    margin-top:3px;
+}
+
 .portinst1 .portimg p {
     margin-top: 10px;
     font-size: 14px;
@@ -683,6 +710,115 @@ header .three:after {
 
 .portinst1 .portimg p span {
     font-family: 'ChosunKm';
+}
+
+.portinst2 {
+    width:1427px;
+    margin-top:200px;
+    padding-bottom:200px;
+}
+
+.portinst2 .pho img{
+    width:600px;
+    height: auto;
+
+}
+
+.portinst2 .main{
+    display:flex;
+    font-size:13px;
+    line-height: 1.4;
+    padding-bottom:100px;
+}
+
+.portinst2 .main .sum span{
+    margin-left:4px;
+}
+
+.portinst2 .ball{
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fdfdfd;
+    border:0.5px solid #999;
+    display:inline-block;
+    margin-left:5px;
+}
+
+.portinst2 .mix {
+    margin-left:50px;
+}
+
+
+.portinst2 .pho{
+    margin-right:40px;
+}
+
+.portinst2 .main .ex{
+    width:224px;
+}
+
+.portinst2 .main .sum{
+    padding-top:40px;
+    font-family: 'chosunilbo';
+}
+
+.portinst2 .main .explain{
+    padding-top:180px;
+    font-family: 'chosunsm';
+}
+
+.portinst2 .pho2{
+    display:flex;
+}
+
+.portinst2 .pho2 img{
+    width:auto;
+    height: 300px;
+}
+
+.portinst2 .pho2 > div:first-child {
+    margin-left:auto;
+    margin-right:40px;
+}
+
+.portinst2 .view{
+    margin-left: auto;
+    bottom:0;
+    font-family: 'chosunilbo';
+    font-weight: 200;
+    font-size:24px;
+    padding-top:430px;
+    padding-right:20px;
+}
+
+
+.portinst2 .view a::before {
+    content: '';
+    position: absolute;
+    bottom: 7%;
+    left: 0px;
+    width: 140px;
+    height: 1px;
+    background: #000;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+.portinst2 .view a:hover::before {
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
 }
 
 .abil .wrap {
